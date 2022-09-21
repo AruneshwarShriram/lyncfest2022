@@ -1,23 +1,29 @@
+/* eslint-disable no-unused-vars */
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Hackathon from "./comp/Hackathon";
+import Symp from './symp/Symp';
+import Table from './comp/Table';
+
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet"></link>
+      <div class="bg-white">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/hackathon" element={<Hackathon />} />
+            <Route path="" element={<Symp/>}/>
+            <Route path="/hackathon/PS" element={<Table/>}/>
+
+          </Routes>
+        </BrowserRouter>
+
+
+      </div>
     </div>
   );
 }
