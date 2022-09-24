@@ -11,7 +11,7 @@ import Hope from "../imgs/hope.png";
 const Sponsor=()=>{
     return(
         <div id="sponsers" class="bg-black py-10">
-            <center class="text-3xl font-nunito text-yellow-500 font-bold py-10">Sponsors</center>
+            <center class="text-3xl font-nunito text-white font-bold py-10">Sponsors</center>
             
             <div class="cards1 grid-cols-4 px-28 py-10">
                 <a href="https://fresatechnologies.com/">

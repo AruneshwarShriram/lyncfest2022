@@ -54,9 +54,9 @@ const Title=()=>{
                             Join. Build. Learn. Tryhard in Hack in Hub ‘22. Bring-out your hidden tech genius in this 24 hours hackathon by solving difficult problems faced by the folks.
     </p>*/}
     <div class="py-5">
-                            <div class="flex items-center space-x-5 text-md font-semibold pt-1">
-                                <a href="re" class="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-gray-900">Register</a>
-                                <a href="re" class="px-5 py-2 bg-pink-900 text-white rounded-md hover:bg-blue-600">Details</a>
+                            <div class="flex items-center space-x-5 text-md font-semibold font-3xl pt-1">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMgKu3DoAywkaWTKTvxTVE3w6a5vDxExlL20cgUipYBnQSKQ/viewform?usp=sf_link" class="px-5 py-2 bg-blue-600 text-2xl text-white rounded-md hover:bg-gray-900">Register</a>
+                                
                             </div>
     </div>
                         
@@ -77,7 +77,7 @@ const Title=()=>{
                                     <span class="text-2xl text-slate-700">Venue : </span>
                                     <p class="font-bold text-xl py-0 px-0 text-slate-700"><br />
                                         {'\n'}
-                                        @Sigma Auditorium<br />
+                                        @<br />
                                         Sairam Institute
 
                                     </p>
@@ -88,7 +88,7 @@ const Title=()=>{
                                 <span class="text-2xl text-slate-700">Team : </span>
                                 <p class="font-bold text-xl py-0 px-0 text-slate-700"><br />
                                     {'\n'}
-                                    <text class="text-2xl">2~4</text> per Team<br />
+                                    <text class="text-2xl">2 ~ 4</text> per Team<br />
 
 
                                 </p>
@@ -96,10 +96,10 @@ const Title=()=>{
 
                             </a>
                             <a class="bg-teal-500 text-white px-4 py-2 rounded-md flex items-center space-x-2" href="re">
-                                <span class="text-2xl text-slate-700">Dummy : </span>
+                                <span class="text-2xl text-slate-700">Fee : </span>
                                 <p class="font-bold text-xl py-0 px-0 text-slate-700"><br />
                                     {'\n'}
-                                    <text class="text-xl">Scorcese</text> Tarantino<br />
+                                    <text class="text-xl">Free</text> Registration<br />
 
 
                                 </p>

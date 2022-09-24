@@ -14,7 +14,7 @@ import Lync from "../imgs/lync fest.jpg";
 import Lync1 from "../imgs/logo-removebg-preview.png";
 import Quiz from "../imgs/la Inquizition.png";
 import "../Events.css";
-
+import { motion } from "framer-motion";
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
@@ -46,7 +46,10 @@ function Events(){
             <div class="font-bold text-5xl bg-black text-white py-10">Events</div>
             <br />
             <div class="events">
+                
                 <div className="cards grid-cols-3 px-28 py-10">
+                    <div >
+                            <text class="text-xl font-nunito font-semibold text-white py-5">Technical Events</text>
                         <a href="#technical">
                     <div className="card__container">
                         <div className="card " data-aos="zoom-in">
@@ -57,20 +60,31 @@ function Events(){
                             </div>
                             
                         </div>
-                            </div></a>
+                            </div>
+                            </a></div>
+                        <div>
+                            <text class="text-xl font-nunito font-semibold text-white">Hackathon</text>
                             <a href="/hackathon">
+                            
                             <div className="card__container">
                                 <div className="card" data-aos="zoom-in">
                                     <div className="logo_container1 ">
                                         <br />
 
                                         <img class="er py-0" src={Hack} height={600} width={600} alt="memeicon" />
+                                        
 
                                     </div>
                                     
+                                    
+                                    
                                 </div>
+                                
+                                
                             </div>
-                            </a>
+                            </a></div>
+                            <div class="">
+                                <text class="text-xl font-nunito font-semibold text-white" >Non Technical Events</text>
                     <a href="#nontech">
                             <div className="card__container">
                                 <div className="card" data-aos="zoom-in">
@@ -82,7 +96,7 @@ function Events(){
                                     
                                 </div>
                             </div>
-                    </a>
+                        </a></div>
                     
 
                 </div>
@@ -212,7 +226,49 @@ function Events(){
                         </div>
                         </div></div>
                         
+                        
             </div>
+                <div class="flex-col grid-cols-2 items-center">
+                    <center>
+                    <div class="px-20 py-20">
+                        <text class="text-white font-bold text-3xl "> Individual Events</text>
+                        <div class=" container h-20 w-48 py-16">
+                            <motion.div
+                                whileHover={{
+                                    scale: 1.05,
+                                    transition: { duration: 1 },
+                                }}
+                                whileTap={{ scale: 0.5 }}
+                                class="py-3  px-10 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
+                                <a
+                                        href="https://forms.gle/E7YCbJiyakyj8bb79"
+                                    className="text-gray-100 text-3xl py-2 rounded-md  font-bold"
+                                >
+                                    Register
+                                </a></motion.div>
+
+                        </div></div></center>
+                    <center>
+                        <div class="px-20 py-20">
+                            <text class="text-white font-bold text-3xl "> Group Events</text>
+                            <div class=" container h-20 w-48 py-16">
+                                <motion.div
+                                    whileHover={{
+                                        scale: 1.05,
+                                        transition: { duration: 1 },
+                                    }}
+                                    whileTap={{ scale: 0.5 }}
+                                    class="py-3  px-10 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
+                                    <a
+                                        href="https://forms.gle/ynHQpAtb4GqtVSTB7"
+                                        className="text-gray-100 text-3xl py-2 rounded-md  font-bold"
+                                    >
+                                        Register
+                                    </a></motion.div>
+
+                            </div></div></center>
+                    </div>
+
             </div></div>)
 } 
 export default Events;

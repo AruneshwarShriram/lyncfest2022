@@ -89,7 +89,7 @@ const Nav = () => {
                                         whileTap={{ scale: 0.9 }}
                                         class="p-2 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-sky-500 hover:text-white">
                                         <a
-                                            href="https://docs.google.com/forms/d/e/1FAIpQLSdNcdV2l22sYJgrXZZYok9jGd21vClnyGyPCaWXrZp23I0uQw/viewform?usp=sf_link"
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSdMgKu3DoAywkaWTKTvxTVE3w6a5vDxExlL20cgUipYBnQSKQ/viewform?usp=sf_link"
                                             className="text-gray-100 text-xl px-3 py-2 rounded-md  font-medium"
                                         >
                                             Register

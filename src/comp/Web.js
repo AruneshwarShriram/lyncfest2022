@@ -3,7 +3,7 @@ const Web = [
         "S.no.": 1,
         "Problem Id": "W01",
         "Problem Statement": "Online integrated platform for projects taken up by the students of various universities\/colleges",
-        "Description": "Innovation is the key to betterment of education and students in the Indian universities\/colleges put a lot of efforts on the projects as a part of the academic requirements. If a common knowledge platform (with a facility for plagiarism) is created to bring all project works taken up at various levels by the students in Technical \/ Higher Educational Institutes and Universities throughout the country , then it will be a great source of knowledge and also will help the student community to take up unique\/innovative project works Summary: An integrated platform should be developed where in all the universities\/Colleges provide information about the projects done by the students. The information on this platform will help in the peer learning and this will also help in cross functional research between various universities\/colleges. Objective: : To develop an online integrated platform for projects taken up by the students of various universities\/colleges.",
+        "Description": "Innovation is the key to betterment of education and students in the Indian universities\/colleges put a lot of efforts on the projects as a part of the academic requirements. If a common knowledge platform (with a facility for plagiarism) is created to bring all project works taken up at various levels by the students in Technical \/ Higher Educational Institutes and Universities throughout the country , then it will be a great source of knowledge and also will help the student community to take up unique\/innovative project works Summary: An integrated platform should be developed where in all the universities\/Colleges provide information about the projects done by the students. The information on this platform will help in the peer learning and this will also help in cross functional research between various universities\/colleges. Objective: : To develop an online integrated platform for projects taken up by the students of various universities colleges.",
         "SDG": "4,9"
     },
     {
@@ -90,7 +90,7 @@ const Web = [
         "Description": "Road are continuously constructed across various locations all over the country. The present system of monitoring the construction process and health is manually and thus becomes tedious and physically impossible many a time. Roads thus become due for repairs \/ maintenance prematurely due to various reasons. There is a requirement to devise a smart process may be by using smart technology to monitor the process at the time of construction, embedding sensors during road construction, use of smart imaging technology to assess condition using drones, smart devices installed on remote operated \/ autonomous vehicles for overseeing during construction, etc. There is an immediate need to identify a viable solution to increase the longevity of roads and prevent premature failure.",
         "SDG": 9
     },
-    null,
+    
     {
         "S.no.": 14,
         "Problem Id": "W14",

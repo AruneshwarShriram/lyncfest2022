@@ -26,7 +26,7 @@ const FAQ=()=>{
                         <p className="mt-1 dark:text-gray-400">FREE. <br/>Free for spectators. Free for participants.</p>
                     </div>
                     <div>
-                        <h3 className="font-semibold">WHAT SIZE SHOULD BE A TEAM ? </h3><br />
+                        <h3 className="font-semibold">WHAT SHOULD BE THE SIZE OF THE TEAM ? </h3><br />
                         <p className="mt-1 dark:text-gray-400">A team can have minimum of 2 to maximum of 4 people.</p>
                     </div>
                     <br /><br /><br /><br />

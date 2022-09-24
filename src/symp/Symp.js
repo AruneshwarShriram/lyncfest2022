@@ -15,7 +15,7 @@ const Symp=()=>{
             <Title/>
             <Head/>
             <Aboutus/>
-            <TransitionsModal/>
+            
             <Events/>
             <TimeLine />
             <Sponsor/>

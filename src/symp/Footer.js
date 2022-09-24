@@ -62,45 +62,88 @@ const Footer=()=>{
 
                         </div>
                     </div>
-                    
-                    <center>
-                        <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-                            <li>
-                                <a href="https://www.instagram.com/sairamit_it/">
-                                    
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                                        <circle cx="12" cy="12" r="3"></circle>
-                                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
+                    <div class="py-2 px-2">
+                        <center class="py-7">
+                            <text class="text-xl font-semibold font-nunito text-white">Lyncfest</text>
+                            <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8 py-3">
+                                <li>
+                                    <a href="https://www.instagram.com/sairamit_it/">
 
-                                <a href="https://www.facebook.com/sairamitit/videos/315808929880804/?extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                
-                                <a href="https://www.linkedin.com/posts/sairamit-information-technology_technoholix-activity-6859120428582076416-6hL">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                                        <line x1="8" y1="11" x2="8" y2="16"></line>
-                                        <line x1="8" y1="8" x2="8" y2="8.01"></line>
-                                        <line x1="12" y1="16" x2="12" y2="11"></line>
-                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                       
-                    </center>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="https://www.facebook.com/sairamitit/videos/315808929880804/?extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="https://www.linkedin.com/posts/sairamit-information-technology_technoholix-activity-6859120428582076416-6hL">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                                            <line x1="8" y1="11" x2="8" y2="16"></line>
+                                            <line x1="8" y1="8" x2="8" y2="8.01"></line>
+                                            <line x1="12" y1="16" x2="12" y2="11"></line>
+                                            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </center>
+                        <center class="py-7">
+                            <text class="text-xl font-semibold font-nunito text-white">IT Dept, SIT</text>
+                            <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8 py-3">
+                                <li>
+                                    <a href="https://www.instagram.com/sairamit_it/">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="https://www.facebook.com/sairamitit/videos/315808929880804/?extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="https://www.linkedin.com/posts/sairamit-information-technology_technoholix-activity-6859120428582076416-6hL">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                                            <line x1="8" y1="11" x2="8" y2="16"></line>
+                                            <line x1="8" y1="8" x2="8" y2="8.01"></line>
+                                            <line x1="12" y1="16" x2="12" y2="11"></line>
+                                            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </center>
+                    </div>
+                    
+                    
 
                 </div>
                 

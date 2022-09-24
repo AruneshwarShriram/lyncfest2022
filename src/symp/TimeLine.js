@@ -30,7 +30,7 @@ function TimeLine() {
                 <div className="timeline py-10">
                     <div className="wrapper">
                         <div className="center-line">
-                            <a href="as" className="scroll-icon" data-aos="zoom-out">
+                            <a href="#schedule" className="scroll-icon" data-aos="zoom-out">
                                 <ArrowUpwardIcon />
                             </a>
                         </div>
