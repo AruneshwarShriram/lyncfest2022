@@ -154,6 +154,7 @@ const Table=()=>{
                     </table>
                     <br/><br/>
                     <text class="font-bold font-nunito text-3xl text-white">AR & VR</text>
+                    <br /><br />
                     <table className="min-w-full text-1xl border-4  border-l-slate-500">
                         <colgroup>
                             <col />
@@ -174,10 +175,11 @@ const Table=()=>{
 
                             </tr>
                         </thead>
-                        <tbody class="border-gray-400 bg-gray-700 font-medium">
+                        
+                        <tbody class="border-gray-400 bg-black font-medium text-white border-2">
                             {
                                 AR.map((detail, key) => (
-                                    <tr className=" border-gray-700 bg-slate-600">
+                                    <tr className=" border-gray-700 border-2 text-white">
                                         <td className="py-3 px-8">
                                             <p>{detail["S.no."]}</p>
                                         </td>
@@ -222,10 +224,10 @@ const Table=()=>{
 
                             </tr>
                         </thead>
-                        <tbody class="border-gray-400 bg-gray-700 font-medium">
+                        <tbody class="border-gray-400 bg-black font-medium text-white border-2">
                             {
                                 IOT.map((detail, key) => (
-                                    <tr className=" border-gray-700 bg-slate-600">
+                                    <tr className=" border-gray-700 border-2 text-white">
                                         <td className="py-3 px-8">
                                             <p>{detail["S.no."]}</p>
                                         </td>
@@ -271,10 +273,10 @@ const Table=()=>{
                             </tr>
                         </thead>
                         
-                        <tbody class="border-gray-400 bg-gray-700 font-medium">
+                        <tbody class="border-gray-400 bg-black font-medium text-white border-2">
                             {
                                 BC.map((detail, key) => (
-                                    <tr className=" border-gray-700 bg-slate-600">
+                                    <tr className=" border-gray-700 border-2 text-white">
                                         <td className="py-3 px-8">
                                             <p>{detail["S.no."]}</p>
                                         </td>
@@ -322,10 +324,10 @@ const Table=()=>{
                             </tr>
                         </thead>
 
-                        <tbody class="border-gray-400 bg-gray-700 font-medium">
+                        <tbody class="border-gray-400 bg-black font-medium ">
                             {
                                 Web.map((detail, key) => (
-                                    <tr className=" border-gray-700 bg-slate-600">
+                                    <tr className=" border-gray-700 bg-black border-2 text-white">
                                         <td className="py-3 px-8">
                                             <p>{detail["S.no."]}</p>
                                         </td>
