@@ -13,7 +13,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 import Hack1 from "../hack_in_hub-removebg-preview.png";
 import Fest from "../logo-removebg-preview.png";
-import SIT from "../imgs/sit.png";
+import SIT from "../imgs/sit1.png";
 
 
 import Title from "./Title";
@@ -36,10 +36,10 @@ const Nav = () => {
                         <div class="float-left grid grid-flow-col">
                             <a href="/">
                                 <img
-                                    className="py-1 bg-black"
+                                    className="py-4 bg-black"
                                     src={SIT}
-                                    height={80}
-                                    width={0}
+                                    height={70}
+                                    width={70}
                                     alt="Workflow"
                                 />
                             </a>

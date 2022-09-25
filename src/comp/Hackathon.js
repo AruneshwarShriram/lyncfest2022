@@ -29,7 +29,7 @@ const Home = () => {
             <Title />
             <Steps />
             <Domains/>
-            <Footer />
+            <Footer/>
 
         </div>
     )

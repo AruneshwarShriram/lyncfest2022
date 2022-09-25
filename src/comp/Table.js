@@ -1,6 +1,6 @@
 import React from "react";
 import AI from "../AI";
-import { Statements } from "../Statements";
+
 import AR from "./AR";
 import BC from "./BC";
 import IOT from "./IOT";
@@ -10,6 +10,7 @@ import Nav from "./Nav";
 import { motion } from "framer-motion";
 
 import Footer from "../symp/Footer";
+import sdg from "../imgs/sdgs-removebg-preview.png";
 
 
 
@@ -18,7 +19,7 @@ const Table=()=>{
     return (
         <div>
         <div class="bg-black">
-        <Nav />
+        <Nav/>
         <div class="bg-black" id="Table">
           <div className="container px-2 py-7 mx-auto sm:p-4  dark:text-gray-100">
             <h2 className="mb-4 text-5xl py-4 font-semibold leading-tight text-slate-300">Problem Statements</h2>
@@ -108,6 +109,13 @@ const Table=()=>{
 
             </div>
             <br /><br /><br /><br /><br /><br /><br />
+            <center>
+                <div class="w-3/3">
+                  <img src={sdg} class="bg-black" height={800} width={1000} />
+                </div>
+            </center>
+              <br /><br /><br /><br /><br /><br /><br />
+            
             <div className="overflow-x-auto">
               <text id="AI" class="font-bold font-nunito text-4xl text-white py-8">AI & Data Analytics</text>
               <br /><br />

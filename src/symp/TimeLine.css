@@ -54,7 +54,6 @@
 
 .row-1 section::before{
   right: -7px;
-  
 }
 
 .row-2 section::before{
@@ -80,7 +79,7 @@ section > .icon > img{
     border-radius: 50%;
     color:#6fc3e1;
     font-size: 17px;
-    border: 1px #0c1a2c solid;
+    border: 1px #0c2340 solid;
     /* box-shadow: 0 0 0 4px var(--palette-yellow), inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05); */
     box-shadow: 0 0 10px 3px #e1dcdb;
 }
