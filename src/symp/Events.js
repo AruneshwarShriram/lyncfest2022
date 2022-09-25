@@ -55,7 +55,7 @@ function Events() {
               <text class="text-xl font-nunito font-semibold text-white">
                 Hackathon
               </text>
-              <a href="/hackathon">
+              <a href="/hackathon/">
                 <div className="card__container">
                   <div className="card" data-aos="zoom-in">
                     <div className="logo_container1 ">
