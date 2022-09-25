@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Hackathon from "./comp/Hackathon";
 import Symp from './symp/Symp';
 import Table from './comp/Table';
+import Modal from './comp/Modal';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/hackathon" element={<Hackathon />} />
             <Route path="" element={<Symp/>}/>
             <Route path="/hackathon/PS" element={<Table/>}/>
+            <Route path="/hackathon/details" element={<Modal/>} />
 
           </Routes>
         </BrowserRouter>

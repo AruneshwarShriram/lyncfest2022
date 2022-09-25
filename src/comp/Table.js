@@ -7,10 +7,14 @@ import IOT from "./IOT";
 import Web from "./Web";
 
 import { motion } from "framer-motion";
+import Nav from "./Nav";
+import Footer from "../symp/Footer";
 
 
 const Table=()=>{
     return (
+        <div class="bg-black">
+            <Nav/>
         <div class="bg-black" id="Table">
             <div className="container px-2 py-7 mx-auto sm:p-4  dark:text-gray-100">
                 <h2 className="mb-4 text-5xl py-4 font-semibold leading-tight text-slate-300">Problem Statements</h2>
@@ -25,7 +29,7 @@ const Table=()=>{
                             whileTap={{ scale: 0.5 }}
                             class="py-3  px-4 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
                             <a
-                                href="#events"
+                                href="#AI"
                                 className="text-gray-100 text-3xl py-2 rounded-md  font-bold"
                             >
                                 AI & DA
@@ -41,7 +45,7 @@ const Table=()=>{
                             whileTap={{ scale: 0.5 }}
                             class="py-3  px-4 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
                             <a
-                                href="#events"
+                                href="#AR"
                                 className="text-gray-100 text-3xl py-2 rounded-md  font-bold"
                             >
                                 AR & VR
@@ -57,7 +61,7 @@ const Table=()=>{
                             whileTap={{ scale: 0.5 }}
                             class="py-3  px-15 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
                             <a
-                                href="#events"
+                                href="#BC"
                                 className="text-gray-100 text-3xl py-2 rounded-md  font-bold"
                             >
                                 Blockchain
@@ -73,7 +77,7 @@ const Table=()=>{
                             whileTap={{ scale: 0.5 }}
                             class="py-3  px-10 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
                             <a
-                                href="#events"
+                                href="#IOT"
                                 className="text-gray-100 text-3xl py-2 rounded-md  font-bold"
                             >
                                 IOT
@@ -90,7 +94,7 @@ const Table=()=>{
                         whileTap={{ scale: 0.5 }}
                         class="py-3  px-0 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-slate-500 hover:text-white">
                         <a
-                            href="#events"
+                            href="#Web"
                             className="text-gray-100 text-2xl py-2 rounded-md  font-bold"
                         >
                             Web & App <br/> Development
@@ -100,10 +104,10 @@ const Table=()=>{
 
                 </div>
                 <br /><br /><br /><br /><br /><br /><br />
-                <div className="overflow-x-auto">
-                    <text class="font-bold font-nunito text-4xl text-white py-8">AI & Data Analytics</text>
+                <div  className="overflow-x-auto">
+                        <text id="AI" class="font-bold font-nunito text-4xl text-white py-8">AI & Data Analytics</text>
                     <br/><br/>
-                    <table className="min-w-full text-1xl border-4 py-7  border-l-slate-500">
+                    <table  className="min-w-full text-1xl border-4 py-7  border-l-slate-500">
                         <colgroup>
                             <col />
                             <col />
@@ -153,9 +157,9 @@ const Table=()=>{
                         </tbody>
                     </table>
                     <br/><br/>
-                    <text class="font-bold font-nunito text-3xl text-white">AR & VR</text>
+                        <text id="AR" class="font-bold font-nunito text-3xl text-white">AR & VR</text>
                     <br /><br />
-                    <table className="min-w-full text-1xl border-4  border-l-slate-500">
+                        <table  className="min-w-full text-1xl border-4  border-l-slate-500">
                         <colgroup>
                             <col />
                             <col />
@@ -203,8 +207,9 @@ const Table=()=>{
 
                         </tbody>
                     </table><br/><br/>
-                    <text class="font-bold font-nunito text-3xl text-white">IOT</text>
-                    <table className="min-w-full text-1xl border-4  border-l-slate-500">
+                        <text id="IOT" class="font-bold font-nunito text-3xl text-white">Internet of Things</text>
+                        <br /><br />
+                        <table  className="min-w-full text-1xl border-4  border-l-slate-500">
                         <colgroup>
                             <col />
                             <col />
@@ -251,8 +256,9 @@ const Table=()=>{
 
                         </tbody>
                     </table><br/>
-                    <text class="font-bold font-nunito text-3xl text-white py-24">Blockchain</text>
-                    <table className="min-w-full text-1xl border-4 py-12  border-l-slate-500">
+                        <text id="BC" class="font-bold font-nunito text-3xl text-white py-24">Blockchain</text>
+                        <br /><br />
+                        <table  className="min-w-full text-1xl border-4 py-12  border-l-slate-500">
                         <colgroup>
                             <col />
                             <col />
@@ -301,9 +307,9 @@ const Table=()=>{
                         </tbody>
                     </table><br/>
                     <br/><br/>
-                    <text class="font-bold font-nunito text-3xl text-white py-24">Web & App Development</text>
+                        <text id="Web" class="font-bold font-nunito text-3xl text-white py-24">Web & App Development</text>
                     <br/><br/>
-                    <table className="min-w-full text-1xl border-4 py-12  border-l-slate-500">
+                        <table  className="min-w-full text-1xl border-4 py-12  border-l-slate-500">
                         <colgroup>
                             <col />
                             <col />
@@ -358,6 +364,7 @@ const Table=()=>{
                                         </div>
                                     </div>
             <br /><br /><br />
-        </div>)
+            </div>
+            <Footer/></div>)
 }
 export default Table;

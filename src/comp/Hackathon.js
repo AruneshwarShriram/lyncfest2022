@@ -28,18 +28,8 @@ const Home = () => {
 
             <Title />
             <Steps />
-            <Guidelines/>
             <Domains/>
-            
-            
-            
-            <FAQ />
             <Footer />
-            
-            
-                      
-            
-            
 
         </div>
     )

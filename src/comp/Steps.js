@@ -18,7 +18,7 @@ const Steps=()=>{
                             <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                                 <span className="text-xs tracking-wider uppercase dark:text-violet-400">Phase 1</span>
                                 <span className="text-xl font-bold md:text-2xl">Registration</span>
-                                <span className="mt-4 dark:text-gray-300">Timings: TBA</span>
+                                <span className="mt-4 dark:text-gray-300">Timings: From 25th September</span>
                             </div>
                         </div>
                         <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
@@ -58,6 +58,20 @@ const Steps=()=>{
                             <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                                 <span className="text-xs tracking-wider uppercase dark:text-violet-400">Phase 4 </span>
                                 <span className="text-xl font-bold md:text-2xl">Judging</span>
+                                <span className="mt-4 font-nunito dark:text-gray-300">Results : October 20 10.30 P.M</span>
+                            </div>
+                        </div>
+                        <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                            <div className="flex items-center justify-center lg:col-span-1 col-span-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-16 h-16">
+                                    <polygon points="388.632 393.82 495.823 255.94 388.684 118.178 363.424 137.822 455.288 255.944 363.368 374.18 388.632 393.82"></polygon>
+                                    <polygon points="148.579 374.181 56.712 255.999 148.629 137.823 123.371 118.177 16.177 255.993 123.314 393.819 148.579 374.181"></polygon>
+                                    <polygon points="330.529 16 297.559 16 178.441 496 211.412 496 330.529 16"></polygon>
+                                </svg>
+                            </div>
+                            <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
+                                <span className="text-xs tracking-wider uppercase dark:text-violet-400">Phase 5 </span>
+                                <span className="text-xl font-bold md:text-2xl">Results</span>
                                 <span className="mt-4 font-nunito dark:text-gray-300">Results : October 20 3.00 P.M</span>
                             </div>
                         </div>

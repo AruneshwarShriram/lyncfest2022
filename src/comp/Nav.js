@@ -13,6 +13,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 import Hack1 from "../hack_in_hub-removebg-preview.png";
 import Fest from "../logo-removebg-preview.png";
+import SIT from "../imgs/sit1.png";
 
 
 import Title from "./Title";
@@ -35,16 +36,17 @@ const Nav = () => {
                         <div class="float-left grid grid-flow-col">
                             <a href="/">
                                 <img
-                                    className="py-1"
-                                    src={Fest}
-                                    height={90}
-                                    width={90}
+                                    className="py-1 bg-gray-300"
+                                    src={SIT}
+                                    height={80}
+                                    width={80}
                                     alt="Workflow"
                                 />
                             </a>
+                            <a href="/hackathon"><div class="py-8 px-3 text-3xl font-bold text-stone-100 font-nunito">
+                                Hack in Hub @ SIT</div></a>
 
-                            <div class="py-8 px-3 text-3xl font-bold text-stone-100 font-nunito">
-                                Lync Fest @ SIT</div>
+                            
                         </div>
                     </div>
 
@@ -65,17 +67,18 @@ const Nav = () => {
                                     >
                                         Problem Statements
                                     </a>
+                                    
 
                                     <a
 
-                                        href="#guidelines"
+                                        href="hackathon/details#guidelines"
                                         className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
 
                                     >
                                         Guidelines
                                     </a>
                                     <a
-                                        href="#domains"
+                                        href="/hackathon#domains"
                                         className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                                     >
                                         Domains

@@ -4,7 +4,7 @@ import Location from "../imgs/icons8-location-update-50.png";
 
 const Footer=()=>{
     return(
-        <div class="py-16 bg-slate-800">
+        <div id="footer" class="py-16 bg-slate-800">
             <footer className="px-4   text-gray-400">
                 <div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
                     <div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
@@ -16,13 +16,20 @@ const Footer=()=>{
                                     <div className="flex flex-col justify-center space-y-3">
                                         <div>
                                             <h2 className="text-xl font-semibold">Contact</h2></div>
+                                        <div class="flex items-center space-x-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Email address" className="w-4 h-4">
+                                                <path fill="currentColor" d="M274.6,25.623a32.006,32.006,0,0,0-37.2,0L16,183.766V496H496V183.766ZM464,402.693,339.97,322.96,464,226.492ZM256,51.662,454.429,193.4,311.434,304.615,256,268.979l-55.434,35.636L57.571,193.4ZM48,226.492,172.03,322.96,48,402.693ZM464,464H48V440.735L256,307.021,464,440.735Z"></path>
+                                            </svg>
+                                            <span class="text-lg font-nunito">
+                                                <a href="mailto:lyncfest2022@gmail.com">lyncfest2022@gmail</a>
+                                            </span>
+                                            </div>
+                                        
                                             
-                                        <div className="space-y-1">
+                                        <div className="space-y-1 font-nunito">
                                             <span className="flex items-center space-x-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Email address" className="w-4 h-4">
-                                                    <path fill="currentColor" d="M274.6,25.623a32.006,32.006,0,0,0-37.2,0L16,183.766V496H496V183.766ZM464,402.693,339.97,322.96,464,226.492ZM256,51.662,454.429,193.4,311.434,304.615,256,268.979l-55.434,35.636L57.571,193.4ZM48,226.492,172.03,322.96,48,402.693ZM464,464H48V440.735L256,307.021,464,440.735Z"></path>
-                                                </svg>
-                                                <span className="dark:text-gray-400">sit19it032@sairamtap.edu.in</span>
+                                                
+                                                <span className="dark:text-gray-400">Symposium - Srinivasan G</span>
                                             </span>
                                             <span className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Phonenumber" className="w-4 h-4">
@@ -32,12 +39,12 @@ const Footer=()=>{
                                             </span>
                                         </div>
                                         <br/>
-                                        <div className="space-y-1">
+                                        <div className="space-y-1 font-nunito">
                                             <span className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Email address" className="w-4 h-4">
                                                     <path fill="currentColor" d="M274.6,25.623a32.006,32.006,0,0,0-37.2,0L16,183.766V496H496V183.766ZM464,402.693,339.97,322.96,464,226.492ZM256,51.662,454.429,193.4,311.434,304.615,256,268.979l-55.434,35.636L57.571,193.4ZM48,226.492,172.03,322.96,48,402.693ZM464,464H48V440.735L256,307.021,464,440.735Z"></path>
                                                 </svg>
-                                                <span className="dark:text-gray-400">sit19it023@sairamtap.edu.in</span>
+                                                <span className="dark:text-gray-400">Hackathon - Vihas S</span>
                                             </span>
                                             <span className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Phonenumber" className="w-4 h-4">
@@ -63,43 +70,19 @@ const Footer=()=>{
                         </div>
                     </div>
                     <div class="py-2 px-2">
-                        <center class="py-7">
-                            <text class="text-xl font-semibold font-nunito text-white">Lyncfest</text>
-                            <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8 py-3">
-                                <li>
-                                    <a href="https://www.instagram.com/sairamit_it/">
+                        <center class="py-4">
+                            <text class="text-xl font-semibold font-nunito text-white py-10">Lyncfest</text>
+                            <br /><br />
+                            <a class="py-2" href="https://www.instagram.com/lyncfest22/">
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-
-                                    <a href="https://www.facebook.com/sairamitit/videos/315808929880804/?extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-
-                                    <a href="https://www.linkedin.com/posts/sairamit-information-technology_technoholix-activity-6859120428582076416-6hL">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                                            <line x1="8" y1="11" x2="8" y2="16"></line>
-                                            <line x1="8" y1="8" x2="8" y2="8.01"></line>
-                                            <line x1="12" y1="16" x2="12" y2="11"></line>
-                                            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                                </svg>
+                            </a>
+                           
 
                         </center>
                         <center class="py-7">

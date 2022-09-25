@@ -74,14 +74,15 @@ const Title=()=>{
                                         >
                                             Events
                                         </a>
+                                        
                                         <a
-                                            href="#schedule"
+                                            href="/hackathon"
                                             className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                                         >
-                                            Schedule
+                                            Hackathon
                                         </a>
                                         <a
-                                            href="#aboutdept"
+                                            href="#footer"
                                             className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                                         >
                                             Contact

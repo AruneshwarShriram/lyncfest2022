@@ -13,6 +13,8 @@ import Loop from "../imgs/loop up.png";
 import Lync from "../imgs/lync fest.jpg";
 import Lync1 from "../imgs/logo-removebg-preview.png";
 import Quiz from "../imgs/la Inquizition.png";
+import HH from "../imgs/HH.png";
+
 import "../Events.css";
 import { motion } from "framer-motion";
 import Backdrop from '@mui/material/Backdrop';
@@ -47,9 +49,13 @@ function Events(){
             <br />
             <div class="events">
                 
-                <div className="cards grid-cols-3 px-28 py-10">
+                <div className="cards grid-cols-3 px-28 py-16">
                     <div >
-                            <text class="text-xl font-nunito font-semibold text-white py-5">Technical Events</text>
+                       <div class="py-5">
+                                <text class="text-xl font-nunito font-semibold text-white bottom-10">Technical Events</text>
+
+                       </div>
+                            
                         <a href="#technical">
                     <div className="card__container">
                         <div className="card " data-aos="zoom-in">
@@ -63,15 +69,18 @@ function Events(){
                             </div>
                             </a></div>
                         <div>
-                            <text class="text-xl font-nunito font-semibold text-white">Hackathon</text>
-                            <a href="/hackathon">
+                            <div class="py-5">
+                                <text class="text-xl font-nunito font-semibold text-white bottom-10">Hackathon</text>
+
+                            </div>
+                             <a href="/hackathon">
                             
                             <div className="card__container">
                                 <div className="card" data-aos="zoom-in">
                                     <div className="logo_container1 ">
                                         <br />
 
-                                        <img class="er py-0" src={Hack} height={600} width={600} alt="memeicon" />
+                                        <img class="er py-0" src={HH} height={700} width={700} alt="memeicon" />
                                         
 
                                     </div>
@@ -84,8 +93,11 @@ function Events(){
                             </div>
                             </a></div>
                             <div class="">
-                                <text class="text-xl font-nunito font-semibold text-white" >Non Technical Events</text>
-                    <a href="#nontech">
+                                <div class="py-5">
+                                <text class="text-xl font-nunito font-semibold text-white bottom-10" >Non Technical Events</text>
+
+                                </div>
+                            <a href="#nontech">
                             <div className="card__container">
                                 <div className="card" data-aos="zoom-in">
                                     <div className="logo_container">
@@ -228,7 +240,7 @@ function Events(){
                         
                         
             </div>
-                <div class="flex-col grid-cols-2 items-center">
+                <div class="flex-col grid-cols-3 justify-evenly">
                     <center>
                     <div class="px-20 py-20">
                         <text class="text-white font-bold text-3xl "> Individual Events</text>
