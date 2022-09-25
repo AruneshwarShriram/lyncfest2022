@@ -68,7 +68,7 @@ const Nav = () => {
                     href={
                       getPath === "guidelines" || getPath === "PS"
                         ? "/hackathon/PS"
-                        : "hackathon/PS"
+                        : "/hackathon/PS"
                     }
                     className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                   >
