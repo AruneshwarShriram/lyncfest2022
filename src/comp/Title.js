@@ -50,7 +50,7 @@ const Title = () => {
               <div class="py-5">
                 <div class="flex items-center space-x-5 text-md font-semibold pt-1">
                   <a
-                    href="re"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdNcdV2l22sYJgrXZZYok9jGd21vClnyGyPCaWXrZp23I0uQw/viewform"
                     class="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-gray-900"
                   >
                     Register
