@@ -1,6 +1,5 @@
 import React from "react";
 import AI from "../AI";
-import { Statements } from "../Statements";
 import AR from "./AR";
 import BC from "./BC";
 import IOT from "./IOT";
